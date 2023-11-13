@@ -15,7 +15,7 @@ res.header("Access-Control-Allow-Headers",
 next();
 });
 
-{/*//Here we are configuring express to use body-parser as middle-ware. 
+{/*Here we are configuring express to use body-parser as middle-ware. 
 The body-parser extracts the entire body portion of an incoming request stream and exposes it on req.body. */}
 const bodyParser = require("body-parser");
 app.use(bodyParser.urlencoded({ extended: false }));
